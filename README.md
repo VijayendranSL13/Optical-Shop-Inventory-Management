@@ -1,5 +1,5 @@
 # Optical-Shop-Inventory-Management
-#Implementation of the Management of an Optical Information System
+Implementation of the Management of an Optical Information System
 
 In this project has Two modules:
  1.Admin
@@ -22,13 +22,3 @@ User:
 
 
 This is an Emporium of all types of glasses and the lenses , we make the order , user can buy the glassse in the online mode.
-
-
-
-
-
-
-
-
-
-
