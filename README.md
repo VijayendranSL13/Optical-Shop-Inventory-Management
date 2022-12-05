@@ -95,3 +95,54 @@ This is an Emporium of all types of glasses and the lenses , we make the order ,
 4.2. ARCHITECTURAL DESIGN 
 
 	Architectural design is the high-level structure. It is an early stage of the system design process. It represents the link between specification and design processes and carried out in parallel with some specification activities
+
+
+
+5.2. MODULES:
+5.2.1 Admin Module: 
+
+	Login the account with correct user name and password. 
+	Add the all types of frames and glasses 
+	View all the customer details. 
+	Manage the all types of glasses 
+	View the orders and payment methods 
+	Deliver the orders. 
+	Logout . 
+
+5.2.2 User Module:
+
+	Register new account 
+	Login the correct username and the password. 
+	After verifying the account ,user can buy the glasses based on the power
+	Serarch for glasses
+	Select the glass to buy 
+	Add the account details. 
+	Mode of payment. 
+	Ordered the glass 
+	Logout.
+ 
+
+
+5.2.3 Cart Module:
+
+	Search by brand
+	Selecting product
+	Product details
+	Buying the product
+	Entering the payment details
+	Conforming order
+5.2.4.1 Register / Sign  Up module:
+
+	User name
+	User gender
+	User Password
+	User Mail ID
+	User Mobile number
+	User Address
+	User profile photo
+
+5.2.4.2 Sign Up Module:
+
+	User ID ![Module](https://user-images.githubusercontent.com/113609107/205550919-cad58627-81d0-4667-94eb-ba84c3c13ee3.jpg)
+
+	Password
