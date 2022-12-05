@@ -1,0 +1,301 @@
+.location-button {
+    border-radius: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 65px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: none;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+    box-shadow: none!important;
+    -webkit-transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.1s ease;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.1s ease;
+}
+
+#showLocationButton .location-button:focus {
+    background: #f2f1f2;
+}
+
+.location-button a, .places_list_all_stores {
+    font-weight: 600;
+}
+
+#showLocationButton .location-button:hover {
+    background: #f2f1f2;
+}
+
+.icon_location {
+    display: none;
+    float: left;
+    height: 100%;
+    color: #717171;
+    width: 8%;
+    margin-bottom: 20px;
+}
+
+.icon_location img {
+    max-width: 18px;
+}
+
+.location-button__text {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.location-button__places {
+    color: #717171;
+    width: 90%;
+    height: 50%;
+    float: right;
+    padding-top: 5px;
+}
+
+.location-button__places_list {
+    margin: 0;
+    padding: 0;
+}
+
+.location-button__places_list a {
+    color: #000;
+}
+
+.location-button__places_list_block li {
+    list-style: none;
+}
+
+.store-locator-header-link {
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
+
+.store-locator-header-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.places_list_item > a {
+    vertical-align: top;
+    position: relative;
+}
+
+.places_list_item > a::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    background: url(images/svg/pin.svg) center center / contain no-repeat;
+    left: -25px;
+    top: 0;
+}
+
+.places_list_item {
+    padding: 15px 15px 15px 40px;
+    margin: 0;
+    border-bottom: 1px solid #edeef0;
+}
+.places_list_address {
+    vertical-align: top;
+}
+
+.places_list_address > a {
+    color: #006bb4;
+}
+
+.places_list_all_stores {
+    margin-top: 1rem;
+    padding: 15px;
+}
+
+.places_list_all_stores:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.store-locator-header-link a:hover {
+    text-decoration: underline;
+}
+
+.store-locator-header-icon {
+    display: none;
+
+}
+
+.store-locator-header-icon img {
+    height: 25px;
+}
+
+@media screen and (max-width: 765px) {
+    .store-locator-header-icon {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 12px;
+    }
+}
+
+.mw-store-locator-inactive-place {
+    display: none;
+}
+
+.mw-store-locator-active {
+    display: block;
+}
+
+.mw-store-locator-active-place {
+    display: flex!important;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+}
+
+.mw-sl__stores__list__item {
+    display: none;
+}
+
+.mw-store-locator-inpage-content #mw-store-locator-locations .mw-sl__content--map-overlay{
+    height: 700px;
+    position: relative;
+}
+
+@media screen and (max-width: 540px) {
+    #mw-store-locator-locations .mw-sl__content--map-overlay .mw-sl__map {
+        top: 700px;
+    }
+
+    .mw-store-locator-inpage-content #mw-store-locator-locations .mw-sl__content--map-overlay {
+        height: 1000px!important;
+    }
+
+    .mw-sl__content-filter_on_map .mw-sl__search {
+        margin-left: 0!important;
+    }
+
+    #mw-store-locator-locations .mw-sl__stores {
+        margin-left: 0;
+        width: 100%;
+        max-width: 370px;
+    }
+
+}
+
+.mw-sl__store__info__name a {
+    color: #333333;
+}
+
+.mw-sl__content--map-right .mw-sl__stores {
+    height: 400px;
+}
+
+#mw-store-locator-locations .location-header {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
+
+.mw-sl__stores__header {
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mageworx-modal-location  .action-close {
+    z-index: 10000;
+}
+
+.places_list_item_stock_in-stock {
+    float: right;
+    font-weight: 600;
+    color: #54B644;
+    vertical-align: top;
+}
+
+.places_list_item_stock_out-of-stock {
+    float: right;
+    font-weight: 600;
+    color: #909090;
+}
+
+.places_list_item_stock_out-of-stock span,
+.places_list_item_stock_out-of-stock img,
+.places_list_item_stock_in-stock span,
+.places_list_item_stock_in-stock img {
+    vertical-align: middle;
+}
+
+.places_list_item_stock_out-of-stock img,
+.places_list_item_stock_in-stock img {
+    margin-left: 5px;
+}
+
+.location-button-header {
+    border-bottom: 1px solid #ccc;
+    padding: 12px 15px;
+}
+
+.location-button__places_list_block {
+    padding-top: 10px;
+}
+
+.mw-sl__search {
+    position: relative;
+    /*z-index: 300;*/
+    margin-bottom: 20px;
+}
+
+.mw-sl__content-filter_on_map .mw-sl__search {
+    margin-left: 20px;
+    top: 20px;
+    box-shadow: 0 0 41px 0 rgba(32, 42, 53, 0.2), 0 2px 16px 0 rgba(32, 42, 54, 0.08);
+}
+
+#use_location:hover {
+    cursor: pointer;
+}
+
+.mw-filter_for_list {
+
+}
+
+.mw-search_box_for_list {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.mw-list_left_block  {
+    width: 40%;
+}
+
+.mw-list_left_block .mw-filter_for_list {
+    margin-top: 0 !important;
+    width: 100%!important;
+}
+
+.mw-sl__stores__wrapper #mw-all-stores {
+    width: 60%;
+}
+
+.mw-sl__content--map-hidden .mw-sl__stores__list{
+    margin-top: 0!important;
+}
+
+.mw-sl__content--map-hidden .mw-filter_for_list{
+    height: 630px!important;
+}
+
+.mw-sl__no-stores {
+    margin: 0 15px;
+}
+
+.location-button__select_option {
+    padding: 12px 15px;
+    font-weight: normal;
+    font-size: 1.6rem;
+}
