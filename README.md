@@ -40,8 +40,8 @@ This is an Emporium of all types of glasses and the lenses , we make the order ,
 2.SYSTEM SPECIFICATION:
 2.1. HARDWARE REQUIREMENT:
 
-	PROCESSOR  : Intel i3 Processor 
-	RAM		     : 2GB RAM 
+	PROCESSOR   : Intel i3 Processor 
+	RAM	    : 2GB RAM 
 	HARD DISK   : 250 GB 
 2.2. SOFTWARE REQUIREMENTS :
 
