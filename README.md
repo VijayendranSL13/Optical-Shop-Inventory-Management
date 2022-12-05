@@ -121,8 +121,6 @@ This is an Emporium of all types of glasses and the lenses , we make the order ,
 	Ordered the glass 
 	Logout.
  
-
-
 5.2.3 Cart Module:
 
 	Search by brand
@@ -143,6 +141,10 @@ This is an Emporium of all types of glasses and the lenses , we make the order ,
 
 5.2.4.2 Sign Up Module:
 
-	User ID ![Module](https://user-images.githubusercontent.com/113609107/205550919-cad58627-81d0-4667-94eb-ba84c3c13ee3.jpg)
-
+	User ID 
 	Password
+
+
+6.CONCLUSION:
+
+	In this project we proposed the E-Opticals management system, A Frame work for building personalized classification models. The existing method is totally waste of time and energy, So we implemented a Online optical shopping website using PHP(Hypertext Pre-Processor). So Far as we know this process is the latest model of online shopping website for the customers.
